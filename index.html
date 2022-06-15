@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>My fomulario</title>
+</head>
+<body>  
+    <div class="container">
+        <div class="header">
+            <img src="" alt="" class="header__logo" />
+            <h3 class="header__slogan">Sign to my web</h3>
+            <div class="header__buttons">
+                <button class="header__button-Google">
+                    <i class="uil uil-google"></i>Acceder con Google</button>
+                <button class="header__button-Twiter"><i class="uil uil-twitter"></i></button>
+            </div>
+        </div>
+        <div class="divider">
+            <hr />
+            <span>Or</span>
+            <hr />
+        </div>
+        <div class="form__container">
+            <div class="form">
+                <div class="form__userdata">
+                    <div class="form__name box-form" >
+                        <label for="name">Name</label><br />
+                        <input class="form__input-name" id="form-name" type="text">
+                    </div>
+                    <div class="form__username box-form">
+                        <label for="username">Username</label><br />
+                        <input name="username" class="form__input-username" id="form-usernamename" type="text">
+                    </div>
+                </div>
+                <div class="form__sign-data">
+                    <div class="form__email box-form">
+                        <label for="email">Email</label><br />
+                        <input name="email" id="form-email" class="form__email" type="text">
+                    </div>
+                    <div class="form__password box-form">
+                        <label for="pasword">Password</label><br />
+                        <input name="password" id="form-password" class="form__pasword" placeholder="6+ caracters" type="password">
+                    </div>
+                </div>
+                
+                <div class="form__check-policy">
+                    <input type="checkbox" class="form__checkbox" />
+                    <label class="form__terms" for="user_agree_to_terms">
+                        Creating an account means you’re okay with our
+                        <a target="_blank" href="/terms">Terms of Service</a>,
+                        <a target="_blank" href="/privacy">Privacy Policy</a>, and our default
+                        <a target="_blank" href="/notifications">Notification Settings.</a>
+                    </label>
+                </div>
+                <button class="form__sign-btn">Sign in</button>
+                <span class="form__end">Not a number?  <a href="#"> Sign up</a> </span>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
